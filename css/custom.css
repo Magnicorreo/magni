@@ -1,0 +1,27 @@
+.letra {
+  font-size: 2em;
+}
+#forma{
+	background: aliceblue;
+}
+#tip1{
+	background: beige;
+	    padding-right: 15px;
+    padding-left: 15px;
+}
+#tip2{
+	background: aquamarine;
+	    padding-right: 15px;
+    padding-left: 15px;
+}
+#tip3{
+	background: coral;
+	    padding-right: 15px;
+    padding-left: 15px;
+}
+#tips{
+	 padding: 0px;
+}
+.panel panel-default{
+	background: blue;
+}
