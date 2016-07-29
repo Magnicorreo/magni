@@ -1,1 +1,0 @@
-!function(){function CustomEvent(event,params){params=params||{bubbles:!1,cancelable:!1,detail:void 0};var evt=document.createEvent("CustomEvent");return evt.initCustomEvent(event,params.bubbles,params.cancelable,params.detail),evt}"undefined"==typeof CustomEvent&&(CustomEvent.prototype=window.Event.prototype,window.CustomEvent=CustomEvent)}();

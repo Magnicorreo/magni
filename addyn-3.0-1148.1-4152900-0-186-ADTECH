@@ -1,3 +1,0 @@
-document.write('<a href="https://adserver.adtech.de/?adlink|1148|4152900|0|186|AdId=15410662;BnId=1;itime=332021937;key=key1%2Bkey2%2Bkey3%2Bkey4;" target="_blank"><img src="https://aka-cdn.adtech.de/images/321/Ad0St1Sz186Sq0V0Id110152001.gif" border="0" alt="click here" width="300" height="150"/></a>');
- var adcount_4152900_1_=new Image();
-adcount_4152900_1_.src="https://adserver.adtech.de/adcount|2.0|1148|4152900|0|186|AdId=15410662;BnId=1;ct=2962990448;st=3138;adcid=1;itime=332021937;reqtype=5;;key=key1%2Bkey2%2Bkey3%2Bkey4;"; 
