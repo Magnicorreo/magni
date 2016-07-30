@@ -28,499 +28,456 @@
     <!--[if lt IE 9]>
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
+        <![endif]-->
 
-</head>
+    </head>
 
-<body id="page-top" class="index">
+    <body id="page-top" class="index">
 
-    <!-- Navigation -->
-    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top navbar-custom">
-        <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header page-scroll">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
-                </button>
-                <a class="navbar-brand" href="#page-top">MAGNI</a>
+        <!-- Navigation -->
+        <nav id="mainNav" class="navbar navbar-default navbar-fixed-top navbar-custom">
+            <div class="container">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header page-scroll">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                        <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
+                    </button>
+                    <a class="navbar-brand" href="#page-top">MAGNI</a>
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="hidden">
+                            <a href="#page-top"></a>
+                        </li>
+                        <li class="page-scroll">
+                            <a href="#portfolio">Inicio</a>
+                        </li>
+                        <li class="page-scroll">
+                            <a href="#blog">Blog</a>
+                        </li>
+                        <li class="page-scroll">
+                            <a href="#about">Sobre nosotros</a>
+                        </li>
+                        <li>
+                            <a href="#contact">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- /.navbar-collapse -->
             </div>
+            <!-- /.container-fluid -->
+        </nav>
 
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                    <li class="hidden">
-                        <a href="#page-top"></a>
-                    </li>
-                    <li class="page-scroll">
-                        <a href="#portfolio">Inicio</a>
-                    </li>
-                    <li class="page-scroll">
-                        <a href="#blog">Blog</a>
-                    </li>
-                    <li class="page-scroll">
-                        <a href="#about">Sobre nosotros</a>
-                    </li>
-                    <li>
-                        <a href="#contact">Contacto</a>
-                    </li>
-                </ul>
+        <!-- Header -->
+
+
+        <!-- Portfolio Grid Section -->
+        <section id="portfolio">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <h2>Selecciona el tipo de correo electrónico que deseas enviar</h2>
+                        <hr class="star-primary">
+                    </div>
+                </div>
+                <div>
+                    <button class="col-md-4 col-xs-12 btn btn-info" data-toggle="collapse" data-target="#demo"><h2>Bienvenida</h2></button>
+                    <button class="col-md-4 col-xs-12 btn btn-info" data-toggle="collapse" data-target="#postulacion"><h2>Postulación</h2></button>
+                    <div id="postulacion" class="col-md-4 col-xs-12collapse"></div>
+                    <button type="button" class="col-md-4 col-xs-12 btn btn-info" data-toggle="collapse" data-target="#postulacion"><h2>Agradecimeinto</h2></button>
+                    <div id="postulacion" class="collapse"></div><button type="button" class="col-md-4 col-xs-12 btn btn-info" data-toggle="collapse" data-target="#postulacion"><h2>Favor</h2></button>
+                    <div id="postulacion" class="collapse"></div>
+                    <button type="button" class="col-md-4 col-xs-12 btn btn-info" data-toggle="collapse" data-target="#postulacion"><h2>General</h2></button>
+                    <div id="postulacion" class="collapse"></div>
+                    <div id="demo" class="collapse">
+                        <div class="col-md-12 col-xs-12" id="tips"> 
+                        <div class="col-md-4 col-xs-12" id="tip1">
+                           <h3>Tip 1</h3>
+                           <p>Tip de plantilla de bienvenida 1</p>
+                        </div>
+                        <div class="col-md-4 col-xs-12" id="tip2">
+                           <h3>Tip 2</h3>
+                           <p>Tip de plantilla de bienvenida 2</p>
+                        </div>
+                        <div class="col-md-4 col-xs-12" id="tip3">
+                           <h3>Tip 3</h3>
+                           <p>Tip de plantilla de bienvenida 3</p>
+                        </div>
+                    </div>
+                    <div class="col-md-12 col-xs-12" id="forma">	
+                        <h3>Completa los siguientes campos y nosotros crearemos tu correo mejorado</h3>
+                        <div class="col-md-8">
+                            <div class="panel-group" id="accordion">
+                                <div class="panel panel-default">
+                                    <div class="panel-heading">
+                                        <h4 class="panel-title">
+                                        <a><label for="exampleTextarea">Asunto</label>
+                                        <textarea class="form-control" id="exampleTextarea" rows="1" placeholder="Máximo 30 caracteres" data-toggle="collapse" data-parent="#accordion" href="#collapse1" ></textarea></a></h4>
+                                    </div>
+                                    <div id="collapse1" class="panel-collapse collapse in">
+                                        <div class="panel-body">
+                                            <div class="col-md-6">
+                                                <h4>Ejemplo asunto 1</h4>
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+                                            </div>  
+                                            <div class="col-md-6">
+                                                <h4>Ejemplo asunto 2</h4>
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <h4>Tip 1 asunto</h4>
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua.</p>
+                                            </div>  
+                                            <div class="col-md-6">
+                                                <h4>Tip 2 asunto</h4>
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua.</p>
+                                            </div>
+                                        </div>     
+                                    </div>
+                                </div> 
+                                <div class="panel panel-default">
+                                    <div class="panel-heading">
+                                        <h4 class="panel-title">
+                                        <a><label for="exampleTextarea">Introducción-saludo</label>
+                                        <textarea class="form-control" id="exampleTextarea" rows="3" data-toggle="collapse" data-parent="#accordion" href="#collapse2" ></textarea></a></h4>
+                                    </div>
+                                    <div id="collapse2" class="panel-collapse collapse">
+                                        <div class="panel-body">
+                                            <div class="col-md-6">
+                                                <h4>Ejemplo introducción 1</h4>
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+                                            </div>  
+                                            <div class="col-md-6">
+                                                <h4>Ejemplo introducción 2</h4>
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <h4>Tip 1 introducción</h4>
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua.</p>
+                                            </div>  
+                                            <div class="col-md-6">
+                                                <h4>Tip 2 introducción</h4>
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="panel panel-default">
+                                    <div class="panel-heading">
+                                        <h4 class="panel-title"><a><label for="exampleTextarea">Cuerpo de la bienvenida</label>
+                                        <textarea class="form-control" id="exampleTextarea" rows="5" data-toggle="collapse" data-parent="#accordion" href="#collapse3"></textarea></a></h4>
+                                    </div>
+                                    <div id="collapse3" class="panel-collapse collapse">
+                                        <div class="panel-body">
+                                            <div class="col-md-3">
+                                                <h4>Tip 1 cuerpo</h4>
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                            </div>  
+                                            <div class="col-md-3">
+                                                <h4>Tip 2 cuerpo</h4>
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <h4>Ejemplo Cuerpo 1</h4>
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+                                            </div>  
+                                            <div class="col-md-6">
+                                                <h4>Ejemplo Cuerpo 2</h4>
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="panel panel-default">
+                                    <div class="panel-heading">
+                                        <h4 class="panel-title">
+                                        <a><label for="exampleTextarea">Firma</label>
+                                        <textarea class="form-control" id="exampleTextarea" rows="2" data-toggle="collapse" data-parent="#accordion" href="#collapse4"></textarea></a></h4>
+                                    </div>
+                                    <div id="collapse4" class="panel-collapse collapse">
+                                        <div class="panel-body">
+                                            <div class="col-md-6">
+                                                <h4>Ejemplo firma 1</h4>
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+                                            </div>  
+                                            <div class="col-md-6">
+                                                <h4>Ejemplo firma 2</h4>
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <h4>Tip 1 firma</h4>
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua.</p>
+                                            </div>  
+                                            <div class="col-md-6">
+                                                <h4>Tip 2 firma</h4>
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>     
+                        <div class="col-md-4 form-group">
+                            <h2>Plantilla de bienvenida 1</h1>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodoconsequat. Duis aute irure dolor in reprehenderit in voluptate velit essecillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat nonproident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        </div>
+                        <div class="col-md-6 form-group">
+                            <h2>Plantilla de bienvenida 1</h1>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodoconsequat. Duis aute irure dolor in reprehenderit in voluptate velit essecillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat nonproident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        </div>
+                        <div class="col-md-6 form-group">
+                            <h2>Plantilla de bienvenida 1</h1>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodoconsequat. Duis aute irure dolor in reprehenderit in voluptate velit essecillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat nonproident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        </div> 
+                        <div class="col-md-12">
+                            <div type="button" class="col-md-4 col-xs-0"></div>
+                            <button class="col-md-4 col-xs-12 btn btn-success"><h4>Crea mi correo mejorado</h4></button>
+                            <div type="button" class="col-md-4 col-xs-0"></div>
+
+                        </div>             
+                    </div>
+                </div>
             </div>
-            <!-- /.navbar-collapse -->
+        </section>
+<!-- Footer -->
+        <footer class="text-center">
+            <div class="footer-above">
+                <div class="container">
+                    <div class="row">
+                        <div class="footer-col col-md-4">
+                            <h3>Location</h3>
+                            <p>3481 Melrose Place<br>Beverly Hills, CA 90210</p>
+                        </div>
+                        <div class="footer-col col-md-4">
+                            <h3>Around the Web</h3>
+                            <ul class="list-inline">
+                                <li>
+
+                                </li>
+
+                                <li>
+
+                                </li>
+
+                                <li>
+
+                                </li>
+
+                                <li>
+
+                                </li>
+
+                                <li>
+
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="footer-col col-md-4">
+                            <h3>About Freelancer</h3>
+                            <p>Freelance is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-below">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            Copyright &copy; Your Website 2016
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+<!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
+
+        <div class="scroll-top page-scroll hidden-sm hidden-xs hidden-lg hidden-md">
+            <a class="btn btn-primary" href="#page-top">
+                <i class="fa fa-chevron-up"></i>
+            </a>
         </div>
-        <!-- /.container-fluid -->
-    </nav>
 
-    <!-- Header -->
-   
-
-    <!-- Portfolio Grid Section -->
-    <section id="portfolio">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2>Selecciona el tipo de correo electrónico que deseas enviar</h2>
-                    <hr class="star-primary">
-                </div>
-            </div>
-	            <div>
-	            	<button type="button" class="col-md-4 col-xs-12 btn btn-info" data-toggle="collapse" data-target="#demo"><h2>Bienvenida</h2></button>
-            <div id="demo" class="collapse">
-              
-              	<div class="col-md-12 col-xs-12" id="tips"> 
-	              	<div class="col-md-4 col-xs-12" id="tip1">
-		              	<h3>Tip 1</h3>
-		              	<p>Tip de plantilla de bienvenida 1</p>
-	              	</div>
-	              	<div class="col-md-4 col-xs-12" id="tip2">
-		              	<h3>Tip 2</h3>
-		              	<p>Tip de plantilla de bienvenida 2</p>
-	              	</div>
-	              	<div class="col-md-4 col-xs-12" id="tip3">
-		              	<h3>Tip 3</h3>
-		              	<p>Tip de plantilla de bienvenida 3</p>
-	              	</div>
-                </div>
-              	<div class="col-md-12 col-xs-12" id="forma">	
-              	<h3>Completa los siguientes campos y nosotros crearemos tu correo mejorado</h3>
-
-
-                <div class="col-md-8">
-                 <div class="panel-group" id="accordion">
-
-                    <div class="panel panel-default">
-                        <div class="panel-heading">
-                            <h4 class="panel-title">
-                                <a>
-                                    <label for="exampleTextarea">Asunto</label>
-                                    <textarea class="form-control" id="exampleTextarea" rows="1" placeholder="Máximo 30 caracteres" data-toggle="collapse" data-parent="#accordion" href="#collapse1" >
-                                    </textarea>
-                                </a>
-                            </h4>
-                        </div>
-                        <div id="collapse1" class="panel-collapse collapse in">
-                            <div class="panel-body">
-                                <div class="col-md-6">
-                                    <h4>Ejemplo asunto 1</h4>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
-                                </div>  
-                                <div class="col-md-6">
-                                    <h4>Ejemplo asunto 2</h4>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
-                                </div>
-                                <div class="col-md-6">
-                                    <h4>Tip 1 asunto</h4>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                                    tempor incididunt ut labore et dolore magna aliqua.</p>
-                                </div>  
-                                <div class="col-md-6">
-                                    <h4>Tip 2 asunto</h4>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                                    tempor incididunt ut labore et dolore magna aliqua.</p>
-                                </div>
-                            </div>     
-                        </div>
-                    </div>  
-
-
-                    <div class="panel panel-default">
-                        <div class="panel-heading">
-                            <h4 class="panel-title">
-                                <a>
-                                    <label for="exampleTextarea">Introducción-saludo</label>
-                                    <textarea class="form-control" id="exampleTextarea" rows="3" data-toggle="collapse" data-parent="#accordion" href="#collapse2"></textarea>
-                                </a>
-                            </h4>
-                        </div>
-                        <div id="collapse2" class="panel-collapse collapse">
-                            <div class="panel-body">
-                                <div class="col-md-3">
-                                    <h4>Ejemplo introducción 1</h4>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
-                                </div>  
-                                <div class="col-md-3">
-                                    <h4>Ejemplo introducción 2</h4>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
-                                </div>
-                                <div class="col-md-3">
-                                    <h4>Tip 1 introducción</h4>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                                    tempor incididunt ut labore et dolore magna aliqua.</p>
-                                </div>  
-                                <div class="col-md-3">
-                                    <h4>Tip 2 introducción</h4>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                                    tempor incididunt ut labore et dolore magna aliqua.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="panel panel-default">
-                        <div class="panel-heading">
-                            <h4 class="panel-title">
-                                <a>
-                                <label for="exampleTextarea">Cuerpo de la bienvenida</label>
-                                <textarea class="form-control" id="exampleTextarea" rows="5" data-toggle="collapse" data-parent="#accordion" href="#collapse3"></textarea>
-                                </a>
-                            </h4>
-                        </div>
-                        <div id="collapse3" class="panel-collapse collapse">
-                            <div class="panel-body">
-                                <div class="col-md-3">
-                                    <h4>Tip 1 cuerpo</h4>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                                </div>  
-                                <div class="col-md-3">
-                                    <h4>Tip 2 cuerpo</h4>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
-                                </div>
-                                
-                                <div class="col-md-6">
-                                    <h4>Ejemplo Cuerpo 1</h4>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
-                                </div>  
-                                <div class="col-md-6">
-                                    <h4>Ejemplo Cuerpo 2</h4>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="panel panel-default">
-                        <div class="panel-heading">
-                            <h4 class="panel-title">
-                                <a>
-                                <label for="exampleTextarea">Firma</label>
-                                <textarea class="form-control" id="exampleTextarea" rows="2" data-toggle="collapse" data-parent="#accordion" href="#collapse4"></textarea>
-                                </a>
-                            </h4>
-                        </div>
-                        <div id="collapse4" class="panel-collapse collapse">
-                            <div class="panel-body">
-                                <div class="col-md-6">
-                                    <h4>Ejemplo firma 1</h4>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
-                                </div>  
-                                <div class="col-md-6">
-                                    <h4>Ejemplo firma 2</h4>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
-                                </div>
-                                <div class="col-md-6">
-                                    <h4>Tip 1 firma</h4>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                                    tempor incididunt ut labore et dolore magna aliqua.</p>
-                                </div>  
-                                <div class="col-md-6">
-                                    <h4>Tip 2 firma</h4>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                                    tempor incididunt ut labore et dolore magna aliqua.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>     
-              
-              
-              <div class="col-md-4 form-group">
-             
-              <h2>Plantilla de bienvenida 1</h1>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-              consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-              cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-              proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-              </div>
-              <div class="col-md-6 form-group">
-              <h2>Plantilla de bienvenida 1</h1>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-              consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-              cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-              proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-              </div>
-              <div class="col-md-6 form-group">
-              <h2>Plantilla de bienvenida 1</h1><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-              consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-              cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-              proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-              </div> 
-              <div class="col-md-12">
-                    <div type="button" class="col-md-4 col-xs-0"></div>
-                    <button type="button" class="col-md-4 col-xs-12 btn btn-success"><h4>Crea mi correo mejorado</h4></button>
-                    <div type="button" class="col-md-4 col-xs-0"></div>
+<!-- Portfolio Modals -->
+        <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
                     
-                </div>             
-              </div>
-
-			 </div>
-                </div>
-         <button type="button" class="col-md-4 col-xs-12 btn btn-info" data-toggle="collapse" data-target="#postulacion"><h2>Postulación</h2></button>
-            <div id="postulacion" class="col-md-4 col-xs-12collapse">
-            </div>
-            
-            <button type="button" class="col-md-4 col-xs-12 btn btn-info" data-toggle="collapse" data-target="#postulacion"><h2>Agradecimeinto</h2></button>
-            <div id="postulacion" class="collapse">
-            </div>
-
-            <button type="button" class="col-md-4 col-xs-12 btn btn-info" data-toggle="collapse" data-target="#postulacion"><h2>Favor</h2></button>
-            <div id="postulacion" class="collapse">
-            </div>
-            <button type="button" class="col-md-4 col-xs-12 btn btn-info" data-toggle="collapse" data-target="#postulacion"><h2>General</h2></button>
-            <div id="postulacion" class="collapse">
-            </div>
-
-
-
-    <!-- Contact Section -->
-  </div>
-
-    <!-- Footer -->
-    <footer class="text-center">
-        <div class="footer-above">
-            <div class="container">
-                <div class="row">
-                    <div class="footer-col col-md-4">
-                        <h3>Location</h3>
-                        <p>3481 Melrose Place
-                            <br>Beverly Hills, CA 90210</p>
-                    </div>
-                    <div class="footer-col col-md-4">
-                        <h3>Around the Web</h3>
-                        <ul class="list-inline">
-                            <li>
-                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-facebook"></i></a>
-                            </li>
-                            <li>
-                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-google-plus"></i></a>
-                            </li>
-                            <li>
-                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-twitter"></i></a>
-                            </li>
-                            <li>
-                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-linkedin"></i></a>
-                            </li>
-                            <li>
-                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-dribbble"></i></a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="footer-col col-md-4">
-                        <h3>About Freelancer</h3>
-                        <p>Freelance is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.</p>
+                        </div>
                     </div>
                 </div>
-            </div>
-        </div>
-        <div class="footer-below">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                        Copyright &copy; Your Website 2016
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
-
-    <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
-    <div class="scroll-top page-scroll hidden-sm hidden-xs hidden-lg hidden-md">
-        <a class="btn btn-primary" href="#page-top">
-            <i class="fa fa-chevron-up"></i>
-        </a>
-    </div>
-
-    <!-- Portfolio Modals -->
-    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>Invitación</h2>
-                            <hr class="star-primary">
-                            <img src="img/portfolio/cabin.png" class="img-responsive img-centered" alt="">
-                            <p> <a href="#">Flat Icons</a></p>
-                            <button type="button" class="btn btn-primary">GMAIL</button>
-                            <button type="button" class="btn btn-primary">HOTMAIL</button>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <div class="modal-body">
+                                <h2>Invitación</h2>
+                                <hr class="star-primary">
+                                <img src="img/portfolio/cabin.png" class="img-responsive img-centered" alt="">
+                                <p> <a href="#">Flat Icons</a></p>
+                                <button type="button" class="btn btn-primary">GMAIL</button>
+                                <button type="button" class="btn btn-primary">HOTMAIL</button>
+                                <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
+        <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>POSTULACIÓN</h2>
-                            <hr class="star-primary">
-                            <img src="img/portfolio/cake.png" class="img-responsive img-centered" alt="">
-                            <p></p>
-                            <button type="button" class="btn btn-primary"> GMAIL</button>
-                            <button type="button" class="btn btn-primary"> HOTMAIL</button>              <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <div class="modal-body">
+                                <h2>POSTULACIÓN</h2>
+                                <hr class="star-primary">
+                                <img src="img/portfolio/cake.png" class="img-responsive img-centered" alt="">
+                                <p></p>
+                                <button type="button" class="btn btn-primary"> GMAIL</button>
+                                <button type="button" class="btn btn-primary"> HOTMAIL</button>
+                                <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
+        <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>BIENVENIDA</h2>
-                            <hr class="star-primary">
-                            <img src="img/portfolio/circus.png" class="img-responsive img-centered" alt="">
-                            <p></p>
-                            <button type="button" class="btn btn-primary"> GMAIL</button>
-                            <button type="button" class="btn btn-primary"> HOTMAIL</button>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <div class="modal-body">
+                                <h2>BIENVENIDA</h2>
+                                <hr class="star-primary">
+                                <img src="img/portfolio/circus.png" class="img-responsive img-centered" alt="">
+                                <p></p>
+                                <button type="button" class="btn btn-primary"> GMAIL</button>
+                                <button type="button" class="btn btn-primary"> HOTMAIL</button>
+                                <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
+        <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>FAVOR</h2>
-                            <hr class="star-primary">
-                            <img src="img/portfolio/game.png" class="img-responsive img-centered" alt="">
-                            <p></p>
-                            <button type="button" class="btn btn-primary"> GMAIL</button>
-                            <button type="button" class="btn btn-primary"> HOTMAIL</button>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <div class="modal-body">
+                                <h2>FAVOR</h2>
+                                <hr class="star-primary">
+                                <img src="img/portfolio/game.png" class="img-responsive img-centered" alt="">
+                                <p></p>
+                                <button type="button" class="btn btn-primary"> GMAIL</button>
+                                <button type="button" class="btn btn-primary"> HOTMAIL</button>
+                                <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-    <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
+        <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>RETROALIMENTACIÓN</h2>
-                            <hr class="star-primary">
-                            <img src="img/portfolio/safe.png" class="img-responsive img-centered" alt="">
-                            <p></p>
-                            <button type="button" class="btn btn-primary"> GMAIL</button>
-                            <button type="button" class="btn btn-primary"> HOTMAIL</button>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <div class="modal-body">
+                                <h2>RETROALIMENTACIÓN</h2>
+                                <hr class="star-primary">
+                                <img src="img/portfolio/safe.png" class="img-responsive img-centered" alt="">
+                                <p></p>
+                                <button type="button" class="btn btn-primary"> GMAIL</button>
+                                <button type="button" class="btn btn-primary"> HOTMAIL</button>
+                                <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-    <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
+        <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>GENERAL</h2>
-                            <hr class="star-primary">
-                            <img src="img/portfolio/submarine.png" class="img-responsive img-centered" alt="">
-                            <p></p>
-                            <button type="button" class="btn btn-primary"> GMAIL</button>
-                            <button type="button" class="btn btn-primary"> HOTMAIL</button> 
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <div class="modal-body">
+                                <h2>GENERAL</h2>
+                                <hr class="star-primary">
+                                <img src="img/portfolio/submarine.png" class="img-responsive img-centered" alt="">
+                                <p></p>
+                                <button type="button" class="btn btn-primary"> GMAIL</button>
+                                <button type="button" class="btn btn-primary"> HOTMAIL</button> 
+                                <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
 
-    <!-- jQuery -->
-    <script src="vendor/jquery/jquery.min.js"></script>
+<!-- jQuery -->
+        
+        <script src="vendor/jquery/jquery.min.js"></script>
 
-    <!-- Bootstrap Core JavaScript -->
-    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+ <!-- Bootstrap Core JavaScript -->
+        
+        <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
 
-    <!-- Plugin JavaScript -->
-    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+<!-- Plugin JavaScript -->
+        
+        <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
 
-    <!-- Contact Form JavaScript -->
-    <script src="js/jqBootstrapValidation.js"></script>
-    <script src="js/contact_me.js"></script>
+<!-- Contact Form JavaScript -->
+        
+        <script src="js/jqBootstrapValidation.js"></script>
+        <script src="js/contact_me.js"></script>
 
-    <!-- Theme JavaScript -->
-    <script src="js/freelancer.min.js"></script>
+<!-- Theme JavaScript -->
+        
+        <script src="js/freelancer.min.js"></script>
 
-</body>
-
+    </body>
 </html>
